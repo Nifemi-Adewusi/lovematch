@@ -1,0 +1,213 @@
+/**
+ * Gloabal Reset
+ *
+ * @format
+ */
+
+/* 
+  primary-color: #B7245C
+  secondary-color: #cd668d
+*/
+
+/*
+      / 80 / 96 / 128
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+     
+      Tints
+      Shades
+      Accents
+      Greys
+
+      SHADOWS
+
+      BORDER RADIUS
+
+     White Spacing
+
+      SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64
+      */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Roboto+Mono:wght@500;600;700&family=Roboto:wght@400;500;700;900&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+/* Utlities */
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+.l-heading {
+  font-size: 4rem;
+}
+.m-heading {
+  font-size: 2.5rem;
+  letter-spacing: -0.5px;
+}
+.s-heading {
+  font-size: 1.9rem;
+  color: #333;
+}
+.text-primary {
+  color: #b7245c;
+}
+.text-center {
+  text-align: center;
+}
+.capitalize-text {
+  text-transform: capitalize;
+}
+.list {
+  list-style: none;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flex {
+  justify-content: center;
+  /* align-items: center; */
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.margin-right {
+  margin-right: 2rem;
+}
+.margin-top {
+  margin-top: 4rem;
+}
+.gap-flex {
+  flex: 1;
+  gap: 1.7rem;
+}
+.margin-bottom {
+  margin-bottom: 1.5rem;
+}
+.cta-btn {
+  background-color: #cd668d;
+  border: none;
+  padding: 1.3rem 2.2rem;
+  margin-top: 1rem;
+  border-radius: 2rem;
+}
+.cta-btn:hover {
+  background-color: #b7245c;
+}
+/* Hero Section */
+#hero-section {
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("img/people\ in\ love.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center center;
+  position: relative;
+}
+.list li a {
+  color: #fff;
+  display: inline-block;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+.list .icon {
+  position: absolute;
+  font-size: 3rem;
+  color: #b7245c;
+}
+
+.right {
+  top: 20rem;
+  right: 17rem;
+}
+
+.left {
+  top: 30rem;
+  left: 6rem;
+}
+.center {
+  left: 20rem;
+  bottom: 3rem;
+}
+
+/* More */
+.items {
+  text-align: center;
+}
+.more-icon {
+  color: #b7245c;
+  font-size: 3rem;
+}
+.items h3.s-heading {
+  margin-top: 1rem;
+}
+.items p {
+  margin-top: 1.5rem;
+  font-size: 1.8rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Calculate Section */
+#calculate {
+  color: #e9bdce;
+  padding: 10rem 15rem;
+  background-color: #801940;
+  /* height: 40rem; */
+}
+.form-item label {
+  display: block;
+  margin-bottom: 1.4rem;
+  text-align: center;
+  font-size: 1.6rem;
+}
+.form-item input {
+  border: none;
+  padding: 0.8rem;
+  outline: none;
+  border-radius: 1rem;
+}
+.submit-and-display {
+  margin-top: 2.5rem;
+}
+button {
+  border: none;
+  background-color: #cd668d;
+  color: #fff;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+button:hover {
+  background-color: #b7245c;
+}
+p.container {
+  font-size: 2.6rem;
+  margin-top: -4.5rem;
+}
+div.flex.show-result {
+  font-size: 1.5rem;
+  margin-top: 4rem;
+  color: #cd668d;
+}

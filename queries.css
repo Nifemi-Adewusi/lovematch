@@ -1,0 +1,22 @@
+/**
+ * First Break Point At 726px
+ *
+ * @format
+ */
+
+@media (max-width: 44em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 37em) {
+  html {
+    font-size: 37.5%;
+  }
+}
+@media (max-width: 22em) {
+  html {
+    font-size: 25%;
+  }
+}
